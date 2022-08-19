@@ -349,7 +349,6 @@ let map = genMap();
 addEventListener(`keyup`, function (e) {
   if (e.code === "KeyM") {
     e.preventDefault();
-
     audio.volume = audio.volume === 0 ? 1 : 0;
     return;
   }
@@ -665,11 +664,12 @@ function init() {
   hero.style.height = `${ASSETS.IMAGE.HERO.height}px`;
 
   cloud.style.backgroundImage = `url(${ASSETS.IMAGE.SKY.src})`;
-
-  audio = new Audio();
-  Object.keys(ASSETS.AUDIO).forEach((key) =>
-    audio.load(ASSETS.AUDIO[key], key, (_) => 0)
-  );
+  audioControl.addEventListener("click", () => {
+    audio = new Audio();
+    Object.keys(ASSETS.AUDIO).forEach((key) =>
+      audio.load(ASSETS.AUDIO[key], key, (_) => 0)
+    );
+  });
 
   cars.push(new Car(0, ASSETS.IMAGE.CAR, LANE.C));
   cars.push(new Car(10, ASSETS.IMAGE.CAR, LANE.B));
