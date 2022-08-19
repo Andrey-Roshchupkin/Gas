@@ -175,7 +175,7 @@ class Audio {
 
     // volume
     this.destination = this.audioCtx.createGain();
-    this.volume = 1;
+    this.volume = 0.5;
     this.destination.connect(this.audioCtx.destination);
 
     this.files = {};
@@ -479,7 +479,7 @@ function update(step) {
   }
 
   // sound
-  if (speed > 0) audio.play("engine", speed * 2);
+  if (speed > 0) audio.play("engine", speed * 0.5);
 
   // draw cloud
   cloud.style.backgroundPosition = `${
