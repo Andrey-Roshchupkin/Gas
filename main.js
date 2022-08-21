@@ -41,14 +41,11 @@ const ASSETS = {
   },
 
   AUDIO: {
-    theme:
-      "https://raw.githubusercontent.com/andrey-roshchupkin/Gas/master/music/theme.mp3",
-    engine:
-      "https://raw.githubusercontent.com/andrey-roshchupkin/Gas/master/music/engine.wav",
-    honk: "https://raw.githubusercontent.com/andrey-roshchupkin/Gas/master/music/honk.mp3",
-    beep: "https://raw.githubusercontent.com/andrey-roshchupkin/Gas/master/music/beep.wav",
-    beepStart:
-      "https://raw.githubusercontent.com/andrey-roshchupkin/Gas/master/music/beep-start.wav",
+    theme: "/music/theme.mp3",
+    engine: "/music/engine.wav",
+    honk: "/music/honk.mp3",
+    beep: "/music/beep.wav",
+    beepStart: "/music/beep-start.wav",
   },
 };
 
