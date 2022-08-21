@@ -42,13 +42,13 @@ const ASSETS = {
 
   AUDIO: {
     theme:
-      "https://github.com/Andrey-Roshchupkin/Gas/blob/main/music/theme.mp3",
+      "https://github.com/Andrey-Roshchupkin/Gas/blob/main/music/theme.mp3?raw=true",
     engine:
-      "https://github.com/Andrey-Roshchupkin/Gas/blob/main/music/engine.wav",
-    honk: "https://github.com/Andrey-Roshchupkin/Gas/blob/main/music/honk.mp3",
-    beep: "https://github.com/Andrey-Roshchupkin/Gas/blob/main/music/beep.wav",
+      "https://github.com/Andrey-Roshchupkin/Gas/blob/main/music/engine.wav?raw=true",
+    honk: "https://github.com/Andrey-Roshchupkin/Gas/blob/main/music/honk.mp?raw=true3",
+    beep: "https://github.com/Andrey-Roshchupkin/Gas/blob/main/music/beep.wav?raw=true",
     beepStart:
-      "https://github.com/Andrey-Roshchupkin/Gas/blob/main/music/beep-start.wav",
+      "https://github.com/Andrey-Roshchupkin/Gas/blob/main/music/beep-start.wav?raw=true",
   },
 };
 
