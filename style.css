@@ -192,3 +192,21 @@ h1 {
 #controls > span:last-child > span {
   transform: rotate(90deg);
 }
+
+#audioControl {
+  z-index: 5000;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: #222;
+}
+
+#textAudio {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.2em;
+  color: #d9bbf3;
+  text-shadow: 0 0 black, 0 2px black, 2px 0 black, 0 0 black;
+}

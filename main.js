@@ -669,6 +669,7 @@ function init() {
     Object.keys(ASSETS.AUDIO).forEach((key) =>
       audio.load(ASSETS.AUDIO[key], key, (_) => 0)
     );
+    audioControl.remove();
   });
 
   cars.push(new Car(0, ASSETS.IMAGE.CAR, LANE.C));
