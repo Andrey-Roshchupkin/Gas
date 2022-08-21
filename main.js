@@ -41,11 +41,11 @@ const ASSETS = {
   },
 
   AUDIO: {
-    theme: "/gas/music/theme.mp3",
-    engine: "/gas/music/engine.wav",
-    honk: "/gas/music/honk.mp3",
-    beep: "/gas/music/beep.wav",
-    beepStart: "/gas/music/beep-start.wav",
+    theme: "/Gas/music/theme.mp3",
+    engine: "/Gas/music/engine.wav",
+    honk: "/Gas/music/honk.mp3",
+    beep: "/Gas/music/beep.wav",
+    beepStart: "/Gas/music/beep-start.wav",
   },
 };
 
